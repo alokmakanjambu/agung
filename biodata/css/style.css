@@ -1,0 +1,141 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+.medsos {
+  padding: 5px 0;
+  background-color: cornflowerblue;
+}
+.medsos ul li {
+  display: inline-block;
+  color: #fff;
+  margin-right: 10px;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.container::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+header h1 {
+  float: left;
+  padding: 15px 0;
+  color: cornflowerblue;
+  font-style: italic;
+}
+
+header h1 span {
+  color: #666;
+}
+header ul {
+  float: right;
+}
+header ul li {
+  display: inline-block;
+}
+header ul li a {
+  padding: 25px 20px;
+  display: inline-block;
+}
+header ul li a:hover {
+  background-color: cornflowerblue;
+  color: #fff;
+}
+.active {
+  background-color: cornflowerblue;
+  color: #fff;
+}
+.banner {
+  height: 60vh;
+  background-image: url("../img/banner.jpg");
+  background-size: cover;
+  background-position: bottom;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(100, 149, 237 0.6);
+}
+.banner h2 {
+  color: #fff;
+  z-index: 1;
+  padding: 20px 25px;
+  border: 5px solid #fff;
+}
+section {
+  padding: 75px 0;
+}
+section h3 {
+  text-align: center;
+  padding: 25px 0;
+  color: cornflowerblue;
+}
+.about p {
+  color: #666;
+  word-spacing: 2px;
+  line-height: 25px;
+  text-align: center;
+}
+.tugas {
+  background-color: #f9f9f9;
+}
+.box {
+  color: cornflowerblue;
+}
+.box .col-8 {
+  width: 20%;
+  padding: 25px;
+  text-align: center;
+  float: right;
+  font-size: 10px;
+}
+.icon {
+  width: 70px;
+  height: 70px;
+  border: 1px solid;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 83px;
+  font-size: 15px;
+  margin: 0 auto;
+}
+.box .col-8 h4 {
+  margin: 10px 0;
+}
+footer {
+  padding: 30px 0;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+}
+
+.label {
+  background-color: cornflowerblue;
+  color: #fff;
+}
+
+.box .col-4 p {
+  font-size: 15px;
+  text-align: left;
+  line-height: 15px;
+  margin-bottom: 10px;
+}
