@@ -86,7 +86,10 @@ section {
 }
 section h3 {
   text-align: center;
-  padding: 25px 0;
+  justify-content: center;
+  margin-bottom: 2rem;
+  margin-left: 3rem;
+  padding: 0 0;
   color: cornflowerblue;
 }
 .about p {
@@ -100,13 +103,15 @@ section h3 {
 }
 .box {
   color: cornflowerblue;
+  text-align: center;
+  justify-content: center;
 }
 .box .col-8 {
   width: 20%;
-  padding: 25px;
+  margin: 1rem;
   text-align: center;
   float: right;
-  font-size: 10px;
+  font-size: 0.7rem;
 }
 .icon {
   width: 70px;
